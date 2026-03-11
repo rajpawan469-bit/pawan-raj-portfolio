@@ -45,20 +45,17 @@ export default function Hero() {
           {/* Main Headline */}
           <div>
             <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-[96px] font-semibold leading-[0.92] tracking-tight">
-              <span className="text-white">Events That</span>
+              <span className="text-white">The Person Behind The Moments</span>
               <br />
-              <span className="text-amber-400">Define Brands.</span>
+              <span className="text-amber-400">Brands Never Stop Talking About.</span>
             </h1>
-            <p className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-zinc-500 tracking-tight mt-3">
-              Experiences People Remember.
-            </p>
           </div>
 
           {/* Subheadline */}
           <p className="text-xl sm:text-2xl text-zinc-400 max-w-3xl mx-auto font-normal leading-relaxed">
-            Senior Event Marketing Manager with 7+ years producing{' '}
+            I turn budgets into experiences — conferences, activations, and campaigns{' '}
             <br className="hidden sm:block" />
-            large-scale brand experiences across India and Canada.
+            that don't just look good, they perform.
           </p>
 
           {/* Event type specialization chips */}
