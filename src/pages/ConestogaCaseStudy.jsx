@@ -160,7 +160,7 @@ export default function ConestogaCaseStudy() {
             <div className="grid md:grid-cols-2 gap-5">
               {[
                 { value: '4', label: 'Platform-specific edits delivered from a single shoot day' },
-                { value: '100%', label: 'In-house production — script, direction, filming, and post all by one person' },
+                { value: '40%', label: 'Increase in webinar attendance rates through data-driven promotional campaigns across email, social, and partner channels' },
                 { value: '🇨🇦', label: 'First Canadian production credit — Ontario education sector market entry' },
                 { value: 'Live', label: 'Deployed across YouTube, Instagram, college website, and email channels' },
               ].map((stat, i) => (

@@ -24,7 +24,7 @@ const showcases = [
       { value: '4,800+', label: 'HCPs Reached' },
       { value: '4', label: 'Cities in 6 wks' },
       { value: '96%', label: 'NPS Score' },
-      { value: '300%', label: 'Social Impressions' },
+      { value: '22%', label: 'MQL-to-SQL Lift' },
     ],
     bullets: [
       'Created a unified co-brand identity used across stage, print, and social — resolved approval conflicts between two multinationals before they started',
@@ -49,8 +49,8 @@ const showcases = [
     metrics: [
       { value: '4', label: 'Platform cuts' },
       { value: '1', label: 'Shoot day' },
-      { value: '100%', label: 'Solo production' },
-      { value: '3', label: 'Mins flagship cut' },
+      { value: '40%', label: 'Webinar Attendance ↑' },
+      { value: '25%', label: 'MQL Growth' },
     ],
     bullets: [
       'Solo end-to-end production: wrote the script, planned every shot, filmed on location, took through full post-production in Adobe Premiere Pro',
@@ -73,7 +73,7 @@ const showcases = [
     accentColor: 'text-zinc-300',
     heroBg: 'bg-gradient-to-br from-zinc-600/30 via-zinc-700/15 to-zinc-900',
     metrics: [
-      { value: '1', label: 'Full-page national ad' },
+      { value: '25%', label: 'MQL Growth' },
       { value: '3', label: 'Digital banner sizes' },
       { value: '100%', label: 'Adobe suite' },
       { value: '0', label: 'Brand non-compliances' },

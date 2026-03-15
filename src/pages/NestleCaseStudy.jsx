@@ -150,7 +150,7 @@ export default function NestleCaseStudy() {
             <div className="grid md:grid-cols-2 gap-5">
               {[
                 { value: '4,800+', label: 'Healthcare professionals reached across 4 cities in 6 weeks' },
-                { value: '300%', label: 'Increase in branded social impressions during the campaign window' },
+                { value: '22%', label: 'Improvement in MQL-to-SQL conversion rates through refined lead scoring and post-event nurture workflows' },
                 { value: '96%', label: 'Delegate satisfaction — post-event NPS survey across all cities' },
                 { value: '4/4', label: 'Cities delivered on-brand and on-schedule with zero client escalations' },
               ].map((stat, i) => (

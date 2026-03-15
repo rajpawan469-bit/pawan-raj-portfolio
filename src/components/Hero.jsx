@@ -1,19 +1,19 @@
 import { ArrowRight } from 'lucide-react'
 
 const eventTypes = [
-  'Corporate Conferences',
-  'Brand Activations',
-  'Product Launches',
-  'HCP Medical Events',
-  'Multi-City Campaign Tours',
-  'Experiential Marketing',
+  'Tradeshows',
+  'Roadshows',
+  'Webinars',
+  'Hybrid & Virtual Events',
+  'Social Media Marketing',
+  'Email Marketing',
 ]
 
 const heroStats = [
-  { value: '50+', label: 'Events Produced' },
-  { value: '4,800+', label: 'Peak Attendees' },
-  { value: '98%', label: 'Client Retention' },
-  { value: '8', label: 'Cities Covered' },
+  { value: '60+', label: 'Events Produced' },
+  { value: '2,800+', label: 'Peak Attendees' },
+  { value: '17+', label: 'Cities Covered' },
+  { value: 'CAD $800K+', label: 'Budget Managed' },
 ]
 
 export default function Hero() {
@@ -39,7 +39,7 @@ export default function Hero() {
               Toronto, Ontario 🇨🇦
             </span>
             <span className="text-zinc-700">·</span>
-            <span className="text-sm text-amber-400 font-medium">Open to Work · Valid Work Permit</span>
+            <span className="text-sm text-amber-400 font-medium">Open to Work</span>
           </div>
 
           {/* Main Headline */}
@@ -58,7 +58,7 @@ export default function Hero() {
             that don't just look good, they perform.
           </p>
 
-          {/* Event type specialization chips */}
+          {/* Specialization chips */}
           <div className="flex flex-wrap justify-center gap-2.5 max-w-3xl mx-auto pt-2">
             {eventTypes.map((type, i) => (
               <span
@@ -69,6 +69,9 @@ export default function Hero() {
               </span>
             ))}
           </div>
+          <p className="text-sm text-zinc-600">
+            Industries: F&amp;B · Finance · SaaS · Medical &amp; Technology
+          </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">

@@ -6,19 +6,19 @@ export default function Impact() {
       sub: 'India to Canada',
     },
     {
-      value: '50+',
+      value: '60+',
       label: 'Events Produced',
       sub: 'Conferences, activations & launches',
     },
     {
-      value: '4,800+',
+      value: '2,800+',
       label: 'Peak Attendees',
-      sub: "Nestlé × Dr. Reddy's multi-city",
+      sub: 'Across conferences & activations',
     },
     {
-      value: '98%',
-      label: 'Client Retention',
-      sub: 'Across 5 years of agency work',
+      value: '17+',
+      label: 'Cities Covered',
+      sub: 'Canada, EMEA & APAC regions',
     },
   ]
 

@@ -12,6 +12,11 @@ export default function Clients() {
     'Conestoga College',
     'Ford',
     'Jyoti Interiors',
+    'Future Generali Insurance',
+    'Intex Technologies',
+    'Airtel',
+    'Training Orchestra',
+    'Cipla',
     // Duplicate set for seamless infinite loop
     'Nestlé',
     "Hershey's",
@@ -25,6 +30,11 @@ export default function Clients() {
     'Conestoga College',
     'Ford',
     'Jyoti Interiors',
+    'Future Generali Insurance',
+    'Intex Technologies',
+    'Airtel',
+    'Training Orchestra',
+    'Cipla',
   ]
 
   return (

@@ -1,63 +1,5 @@
-import { ArrowLeft, Download, ImageIcon } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
-
-/**
- * CREATIVE GALLERY
- * Drop the actual ad files into /public/work/ and update src: null below.
- * e.g. src: '/work/ford-bronco-fullpage-ad.jpg'
- */
-const creatives = [
-  { label: 'Full-Page Magazine Ad — Final', src: null, span: 'col-span-2 row-span-2' },
-  { label: 'Digital Banner — 300×250', src: null },
-  { label: 'Digital Banner — 728×90', src: null },
-  { label: 'Brand Style Reference', src: null },
-  { label: 'Print Proof Sheet', src: null },
-]
-
-function CreativeGallery() {
-  return (
-    <div className="py-16 px-6 lg:px-12 border-b border-zinc-900 bg-zinc-950/50">
-      <div className="max-w-4xl mx-auto">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
-          <div>
-            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-[0.2em] mb-1">Creative Work</p>
-            <h2 className="text-2xl font-semibold text-white">Ad Creatives & Deliverables</h2>
-          </div>
-          <a
-            href="/briefs/ford-bronco-brief.pdf"
-            download
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-zinc-800 border border-zinc-700 text-white rounded-full text-sm font-medium hover:bg-zinc-700 hover:border-zinc-600 transition-all duration-200"
-          >
-            <Download size={14} />
-            Download Creative Brief
-          </a>
-        </div>
-
-        {/* Grid — feature the hero ad */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 auto-rows-[160px]">
-          {creatives.map((item, i) => (
-            <div
-              key={i}
-              className={`relative rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800 ${item.span || ''}`}
-            >
-              {item.src ? (
-                <img src={item.src} alt={item.label} className="w-full h-full object-contain p-4" />
-              ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center gap-2 p-4">
-                  <ImageIcon size={20} className="text-zinc-700" />
-                  <p className="text-zinc-600 text-xs text-center leading-tight">{item.label}</p>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-        <p className="text-zinc-700 text-xs mt-4 text-center">
-          Drop ad files into /public/work/ and update src fields above to display the creatives.
-        </p>
-      </div>
-    </div>
-  )
-}
 
 export default function FordCaseStudy() {
   return (
@@ -90,8 +32,6 @@ export default function FordCaseStudy() {
           </p>
         </div>
       </div>
-
-      <CreativeGallery />
 
       {/* Content — 3-section story */}
       <div className="py-24 px-6 lg:px-12">
@@ -144,7 +84,7 @@ export default function FordCaseStudy() {
             <h2 className="text-3xl font-semibold text-white mb-8">What It Achieved</h2>
             <div className="grid md:grid-cols-2 gap-5">
               {[
-                { value: '100%', label: 'Ford global brand guideline compliance — zero revision requests on standards' },
+                { value: '25%', label: 'Growth in marketing-qualified leads (MQLs) through multi-channel event promotion and content marketing initiatives' },
                 { value: '2', label: 'Deliverables from one brief: full-page print + digital banner adaptation' },
                 { value: 'Print', label: 'Magazine-ready CMYK artwork with full bleed, crop marks, and embedded profiles' },
                 { value: 'Adobe', label: 'Illustrator + Photoshop — full production in-house, no external production house' },

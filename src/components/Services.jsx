@@ -34,7 +34,7 @@ const services = [
     title: 'Multi-City Campaign Tours',
     description:
       'Managing logistics, vendors, and creative consistency across 4–8 cities simultaneously — zero compromise on brand standards, regardless of geography.',
-    tags: ['8 Cities Covered', 'Vendor Networks', '₹2Cr+ Budgets Managed'],
+    tags: ['8 Cities Covered', 'Vendor Networks', 'CAD $800K+ Managed'],
   },
   {
     Icon: Film,
