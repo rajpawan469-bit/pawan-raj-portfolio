@@ -84,7 +84,7 @@ export default function FordCaseStudy() {
             <h2 className="text-3xl font-semibold text-white mb-8">What It Achieved</h2>
             <div className="grid md:grid-cols-2 gap-5">
               {[
-                { value: '25%', label: 'Growth in marketing-qualified leads (MQLs) through multi-channel event promotion and content marketing initiatives' },
+                { value: '100%', label: 'Ford global brand guideline compliance — zero revision requests on standards' },
                 { value: '2', label: 'Deliverables from one brief: full-page print + digital banner adaptation' },
                 { value: 'Print', label: 'Magazine-ready CMYK artwork with full bleed, crop marks, and embedded profiles' },
                 { value: 'Adobe', label: 'Illustrator + Photoshop — full production in-house, no external production house' },
